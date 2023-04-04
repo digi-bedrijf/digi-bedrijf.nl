@@ -10,13 +10,10 @@ const { title } = Astro.props
 
 <html lang="en">
   <Head title={title} />
-  <body>
+  <body class="main layout">
     <Header />
-    <main>
-      <div class="page">
-        <!-- page content slot -->
-        <slot />
-      </div>
+    <main class="main">
+      <slot />
     </main>
     <Footer />
   </body>
