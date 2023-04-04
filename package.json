@@ -1,21 +1,31 @@
 {
-  "name": "digi-bedrijf.nl",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/lit": "^2.0.0",
-    "@astrojs/netlify": "^2.2.0",
-    "@astrojs/tailwind": "^3.1.1",
-    "@webcomponents/template-shadowroot": "^0.2.1",
-    "astro": "^2.1.9",
-    "lit": "^2.7.1",
-    "tailwindcss": "^3.3.1"
-  }
+    "name": "digi-bedrijf.nl",
+    "type": "module",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 2,
+        "semi": false,
+        "singleQuote": true,
+        "printWidth": 120
+    },
+    "dependencies": {
+        "@astrojs/lit": "^2.0.0",
+        "@astrojs/netlify": "^2.2.0",
+        "@astrojs/tailwind": "^3.1.1",
+        "@webcomponents/template-shadowroot": "^0.2.1",
+        "astro": "^2.1.9",
+        "lit": "^2.7.1",
+        "tailwindcss": "^3.3.1"
+    },
+    "devDependencies": {
+        "sass": "^1.60.0"
+    }
 }
